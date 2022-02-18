@@ -6,5 +6,9 @@
     {
         "titulo": "Realizar parte 2 ejercicio pg",
         "estado": "Pendiente"
+    },
+    {
+        "titulo": "app de notas V2",
+        "estado": "Finalizado"
     }
 ]
