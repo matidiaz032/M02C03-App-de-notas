@@ -11,6 +11,12 @@ switch (arg3) {
         tareas.nuevaTarea(arg4, arg5);
     break;
 
+    case 'filtrar':
+        let estado = arg4;
+        let filtro = tareas.filtrarPorEstado(estado);
+        filtro.forEach(tarea => console.log(tarea));
+    break;
+
     case undefined:
         console.log('Atención - Tienes que pasar una acción')
         break;

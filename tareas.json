@@ -4,11 +4,19 @@
         "estado": "En proceso"
     },
     {
+        "titulo": "Completar playground",
+        "estado": "Pendiente"
+    },
+    {
         "titulo": "Realizar parte 2 ejercicio pg",
         "estado": "Pendiente"
     },
     {
         "titulo": "app de notas V2",
         "estado": "Finalizado"
+    },
+    {
+        "titulo": "Realizar los readme.md de los proyectos",
+        "estado": "Pendiente"
     }
 ]

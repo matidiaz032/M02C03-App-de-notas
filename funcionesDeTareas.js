@@ -17,5 +17,10 @@ module.exports = moduloTareas = {
 
         tareas.push(nuevaTarea);
         moduloTareas.escribirJson(tareas);
+    },
+    filtrarPorEstado: (estado) => {
+        let listado = moduloTareas.leerJson();
+        let listadoFiltrado = listado.filter(tarea => tarea.estado == estado);
+        return listadoFiltrado;
     }
 }
